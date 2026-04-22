@@ -1,31 +1,112 @@
-!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8"/>
-<title>A Very Simple Page</title>
+    <meta charset="utf-8"/>
+    <title>Ong Jia Sheng | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        .profile-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1 { color: #2c3e50; margin-bottom: 5px; }
+        h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-top: 30px; }
+        .subtitle { color: #7f8c8d; font-style: italic; margin-bottom: 20px; }
+        
+        .section-content { margin-left: 10px; }
+        
+        .hobby-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+        .hobby-tags li {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .photo-box {
+            width: 180px;
+            height: 180px;
+            background: #e0e0e0;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .photo-box img { width: 100%; height: auto; }
+    </style>
 </head>
 <body>
-<h1>Welcome to My Website</h1>
-<hr>
-<h2>About Me</h2>
-<p> xxxxx</p>
-</body><li></li>
-</html><li></li>
-<My Journey><li></li>
- <About Me><li></li>
- Ong Jia Sheng<li></li>
-  17<li></li>
-<li></li> A short personal introduction (2–3 sentences)<li></li>
-3. Section 2: NYP<li></li>
-• ET cluster<li></li>
-• AMKSS,N-level<li></li>
-• Any special training or workshops attended<li></li>
-4. Section 3: Achievements<li></li>
-• Academic achievements (e.g., awards, top grades)<li></li>
-• Extracurricular achievements (e.g., competitions, leadership roles)<li></li>
-• Personal milestones (e.g., learning a new skill, volunteering)
-5. Section 4: Hobbies & Interests
-• Cycling,gaming,making money and vehicles
-• They were stuff that plays a huge part in my life such as toys,interests and keeping me occupied whenever bored<li></li>
-6. Section 5: Photo
-• Add a recent photo of yourself (professional or casual, depending on context)
+
+    <header>
+        <div class="photo-box">
+            <img src="your-photo.jpg" alt="Ong Jia Sheng">
+        </div>
+        <h1>Ong Jia Sheng</h1>
+        <p class="subtitle">17 Years Old | Aspiring Professional</p>
+    </header>
+
+    <div class="profile-card">
+        <h2>About Me</h2>
+        <div class="section-content">
+            <p>Hello! I am a motivated 17-year-old student currently focusing on building my future through technology and personal development. I am a proactive learner who enjoys exploring how things work, whether it’s a complex vehicle or a financial market.</p>
+        </div>
+
+        <h2>Education & Training</h2>
+        <div class="section-content">
+            <ul>
+                <li><strong>Current:</strong> Nanyang Polytechnic (NYP), ET Cluster</li>
+                <li><strong>Secondary:</strong> Ang Mo Kio Secondary School (AMKSS), N-Level Graduate</li>
+                <li><strong>Specialized Training:</strong> <em>[List any specific workshops or training programs here]</em></li>
+            </ul>
+        </div>
+
+        <h2>Achievements</h2>
+        <div class="section-content">
+            <ul>
+                <li><strong>Academic:</strong> Successfully progressed through the N-Level stream to secure a spot in the NYP ET cluster.</li>
+                <li><strong>Personal:</strong> Developed self-taught skills in financial literacy and "making money" strategies through independent research.</li>
+                <li><strong>Community:</strong> <em>[Add any volunteering or leadership roles here]</em></li>
+            </ul>
+        </div>
+
+        <h2>Hobbies & Interests</h2>
+        <div class="section-content">
+            <p>These interests play a massive role in my life, keeping me productive and occupied:</p>
+            <ul class="hobby-tags">
+                <li>Cycling</li>
+                <li>Gaming</li>
+                <li>Financial Growth</li>
+                <li>Automotive & Vehicles</li>
+            </ul>
+            <p style="margin-top: 15px; font-size: 0.95em;">I have a deep interest in vehicles and gadgets—they started as toys but evolved into lifelong interests that drive my curiosity about mechanics and engineering.</p>
+        </div>
+    </div>
+
+</body>
+</html>
